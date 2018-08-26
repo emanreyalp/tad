@@ -1,11 +1,11 @@
 BMES_TARGYAK = [
-  'Analizis 1' => 'alma, eper, korte, paradicsom, dinnye, sarga es piros paprika'
-  'Analizis 2' => 'salata, hagyma, kaposzta'
+  {name:  'Analizis 1', descr: 'alma, eper, korte, paradicsom, dinnye, sarga es piros paprika'},
+  {name: 'Analizis 2', descr: 'salata, hagyma, kaposzta'}
 ]
 
 GDFES_TARGYAK = [
-  'Analizis' => 'alma, korte, sarga paprika, szilva'
-  'Szamelmelet' +> 'hagyma, kaposzta, piros paprika, barack'
+  {name: 'Analizis', descr: 'alma, korte, sarga paprika, szilva'},
+  {name: 'Szamelmelet', descr: 'hagyma, kaposzta, piros paprika, barack'}
 ]
 
 # Vissza adja a targyak metszetet es kulonbsegeit
@@ -27,5 +27,4 @@ def search(first_class, second_class)
 end
 
 def main
-  
 end
