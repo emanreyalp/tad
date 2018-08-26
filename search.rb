@@ -16,8 +16,8 @@ BEFOGADO_INT_TARGYAI = [
 def search(first_class, second_class)
   metszet = []
   first_min_second = []
-  first_class.split(',').each do |first_word|
-    if second_class.include? first_word
+  first_class[:descr].split(',').each do |first_word|
+    if second_class[:descr].include? first_word
       metszet << first_word
     else
       first_min_second << first_word
@@ -30,8 +30,10 @@ def main
   {befogado_targy_code: '123', beszamitando_targyak: ['asd']}
   BMES_TARGYAK.each do |bmes_targy|
     BEFOGADO_INT_TARGYAI.each do |gdfes_targy|
-      s_res = search(bmes_targy, gdfes_targy)
-
+      s_res = {code: gdfes_targy[:code]}.merge search(bmes_targy, gdfes_targy)
+      p s_res
     end
   end
 end
+
+main
