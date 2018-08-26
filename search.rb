@@ -27,13 +27,30 @@ def search(first_class, second_class)
 end
 
 def main
-  {befogado_targy_code: '123', beszamitando_targyak: ['asd']}
+  p 'BMES_TARGYAK:'
+  p BMES_TARGYAK
+  p 'BEFOGADO_INT_TARGYAI'
+  p BEFOGADO_INT_TARGYAI
+
+  {befogado_targy_code: 'bgf123', beszamitando_targyak: ['bmeasd1', 'bmeasd2']}
+
+  # {'bgfasd' => ['bmeasd1', 'bmeasd2']}
+  targyak = {}
+
   BMES_TARGYAK.each do |bmes_targy|
     BEFOGADO_INT_TARGYAI.each do |gdfes_targy|
-      s_res = {code: gdfes_targy[:code]}.merge search(bmes_targy, gdfes_targy)
-      p s_res
+      s_res = search(bmes_targy, gdfes_targy)
+
+      targyak.merge!({gdfes_targy[:code] => []}) if targyak[gdfes_targy[:code]].nil?
+      targyak[gdfes_targy[:code]] << bmes_targy[:code] if s_res[:metszet]
     end
   end
+
+  p targyak
+end
+
+def add_to_sth(targyak, code, bmes_targy)
+  targyak[code] << bmes_targy[:code]
 end
 
 main
