@@ -1,0 +1,120 @@
+{
+  "targy" : {
+    "code" : "B-VI-SZTTUD",
+    "name": "A szamitastudomany alapjai",
+    "separate": "-"
+    "tematics": "Halmazok (A halmaz fogalma - Halmaz és részhalmaza - Műveletek halmazokkal - Halmazok
+direkt szorzata - Relációk - Binér relációk - Ekvivalencia és rendezés - A függvény fogalma - Az
+összetett függvény - A függvény inverze)
+Matematikai logika (Az ítélet fogalma - Logikai műveletek, tulajdonságaik - A logikai kifejezés
+Logikai kifejezések igazságtáblázata - Tautológ logikai kifejezések - Változók helyettesítése -
+Duális logikai kifejezések - „Végtelen” logikai kifejezések - Funkcionálisan teljes művelethalmaz -
+Logikai kifejezések normálformája - Elemi kifejezések - Diszjunktív normálformák - Konjunktív
+normálformák - Perfekt normálformák - Primitív elemi szorzatok, összegek)
+Gráfok (A gráf definíciója - Izomorf gráfok - Multigráfok - Súlyozott gráfok - A csúcs fokszáma -
+Összefüggő gráf - A gráf bázisa - Fák és fajtái - Fák bejárása - A gráfok alkalmazásai - Logikai
+kifejezések ábrázolása - Gráfok a játékelméletben - Adatszerkezet (listaszerkezet) ábrázolása -
+Program ábrázolása gráffal - Adatbázisok)
+Formális nyelvek (Az ábécé és a szavak - Műveletek szavakkal - A formális nyelv fogalma -
+Műveletek nyelvekkel - A grammatika definíciója - A grammatikák osztályozása - A szó
+szerkezetének ábrázolása fával)
+Az automaták elmélete (A determinisztikus véges automata fogalma - A determinisztikus automata
+megadása gráf-fal - A nyelvek és a determinisztikus automaták kapcsolata - A determinisztikus
+veremautomata fogalma - A veremautomata és a grammatikák kapcsolata - Turing-gépek - A
+Turing-gép és a nyelvek kapcsolata)
+Kombinatorika (Permutációk - Variációk - Kombinációk – A binomiális tétel és a Pacal háromszög)
+Kódelmélet – kiegészítő anyag (Információs csatorna - Felbonthatósági feltételek - Optimális kódok
+- Hibajavító kódolás - Lineáris kódok, Hamming kódok - Standard dekódolási
+  eljárások)."
+  },
+  "targy" : {
+    "code": "B-B2-MATAL",
+    "name": "Matematikai alapozás ",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "B-VI-ANLZS1 ",
+    "name": "Analízis I.",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "B-VI-ANLZS2",
+    "name": "Analízis II. ",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "B-B2-FIZALA",
+    "name": "Fizika alapozás",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "B-VI-FIZIKA",
+    "name": "Fizika",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "B-VI-VILLAM ",
+    "name": "Villamosságtan",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "B-VI-PROB",
+    "name": "Problémamegoldás és algoritmusok",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "B-VI-LINALG",
+    "name": "Lineáris algebra",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "B-VI-VALSTA",
+    "name": "Valószínűségszámítás és matematikai statisztika",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "",
+    "name": "",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "",
+    "name": "",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "",
+    "name": "",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "",
+    "name": "",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "",
+    "name": "",
+    "spearate": "",
+    "tematics": ""
+  },
+  "targy" : {
+    "code": "last",
+    "name": "",
+    "spearate": "",
+    "tematics": ""
+  }
+}
